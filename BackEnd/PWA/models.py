@@ -41,7 +41,7 @@ class PatientProfile(models.Model):
         return "{}".format(self.full_name)
 
 # this model use as temp register
-class JoinReqeust(models.Model):
+class TempRegister(models.Model):
     requset_date=models.DateField()
     request_datej=jmodels.jDateField()
     request_state=models.CharField(max_length=15)
